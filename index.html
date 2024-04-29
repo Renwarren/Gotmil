@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotmil Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>MENU GOTMIL</h1>
+	<p>Choisissez vos options et validez. Un agent vous contactera ensuite pour finaliser votre commande.</p>
+        <form action="order.php" method="post">
+            <fieldset>
+                <legend>Azzura Cheeze</legend>
+                <label>
+                    <input type="radio" name="azzura_cheeze[]" value="L">
+                    Large - 4,000 F
+                </label>
+                <label>
+                    <input type="radio" name="azzura_cheeze[]" value="XL">
+                    Extra Large - 7,000 F
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Regina</legend>
+                <label>
+                    <input type="radio" name="regina[]" value="L">
+                    Large - 5,000 F
+                </label>
+                <label>
+                    <input type="radio" name="regina[]" value="XL">
+                    Extra Large - 8,000 F
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Vénitienne</legend>
+                <label>
+                    <input type="radio" name="venitienne[]" value="L">
+                    Large - 6,000 F
+                </label>
+                <label>
+                    <input type="radio" name="venitienne[]" value="XL">
+                    Extra Large - 9,000 F
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>PIZZA Suisse</legend>
+                <label>
+                    <input type="radio" name="pizza_suisse[]" value="L">
+                    Large - 5,000 F
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Dolce Vita</legend>
+                <label>
+                    <input type="radio" name="dolce_vita[]" value="L">
+                    Large - 7,000 F
+                </label>
+                <label>
+                    <input type="radio" name="dolce_vita[]" value="XL">
+                    Extra Large - 10,000 F
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Mexicaine</legend>
+                <label>
+                    <input type="radio" name="mexicaine[]" value="L">
+                    Large - 6,000 F
+                </label>
+                <label>
+                    <input type="radio" name="mexicaine[]" value="XL">
+                    Extra Large - 10,000 F
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Savoyarde</legend>
+                <label>
+                    <input type="radio" name="savoyarde[]" value="L">
+                    Large - 6,000 F
+                </label>
+                <label>
+                    <input type="radio" name="savoyarde[]" value="XL">
+                    Extra Large - 10,500 F
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>All American</legend>
+                <label>
+                    <input type="radio" name="all_american[]" value="L">
+                    Large - 7,000 F
+                </label>
+                <label>
+                    <input type="radio" name="all_american[]" value="XL">
+                    Extra Large - 10,000 F
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Mont Manengouba</legend>
+                <label>
+                    <input type="radio" name="mont_manengouba[]" value="L">
+                    Large - 8,000 F
+                </label>
+                <label>
+                    <input type="radio" name="mont_manengouba[]" value="XL">
+                    Extra Large - 11,500 F
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Végétarienne</legend>
+                <label>
+                    <input type="radio" name="vegetarienne[]" value="L">
+                    Large - 6,500 F
+                </label>
+                <label>
+                    <input type="radio" name="vegetarienne[]" value="XL">
+                    Extra Large - 10,000 F
+                </label>
+            </fieldset>
+            
+            <h2>Select Pizza Extras</h2>
+            <fieldset>
+                <legend>Suppléments</legend>
+                <label>
+                    <input type="checkbox" name="extras[]" value="fromage_m">
+                    Extra Cheese (M) - 1,000 F
+                </label>
+                <label>
+                    <input type="checkbox" name="extras[]" value="fromage_l_xl">
+                    Extra Cheese (L/XL) - 1,500 F
+                </label>
+                <label>
+                    <input type="checkbox" name="extras[]" value="viande_m">
+                    Extra Meat (M) - 1,000 F
+                </label>
+                <label>
+                    <input type="checkbox" name="extras[]" value="viande_l_xl">
+                    Extra Meat (L/XL) - 1,500 F
+                </label>
+            </fieldset>
+            
+            <button type="submit">Submit</button>
+        </form>
+</body>
+</html>
